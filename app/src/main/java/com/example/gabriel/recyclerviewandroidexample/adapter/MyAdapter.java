@@ -34,13 +34,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     }
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
-
         public TextView txtName;
-
         public MyViewHolder(View v) {
             super(v);
             txtName = (TextView) v.findViewById(R.id.text_name);
         }
     }
-
 }
